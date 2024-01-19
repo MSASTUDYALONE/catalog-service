@@ -1,4 +1,4 @@
-package com.example.catalogsevice.entity;
+package com.example.catalogsevice.jpa;
 
 import org.springframework.data.repository.CrudRepository;
 
