@@ -11,8 +11,6 @@ public class CatalogSeviceApplication {
     public static void main(String[] args) {
         SpringApplication.run(CatalogSeviceApplication.class, args);
 
-        log.info("infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo");
-        log.debug("debugdebugdebugdebugdebugdebugdebugdebugdebugdebugdebugdebugdebug");
     }
 
 }

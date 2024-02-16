@@ -18,7 +18,7 @@ public class kafkaConsumerConfig {
     @Bean
     public ConsumerFactory<String, String> consumerFactory() { // 접속 정보 설정
         Map<String, Object> properties = new HashMap<>();
-        properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1");
+        properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
         properties.put(ConsumerConfig.GROUP_ID_CONFIG, "consumerGroupId"); // TODO 더 알아보기
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class); // KEY 풀어주기
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class); // VALUE 풀어주기

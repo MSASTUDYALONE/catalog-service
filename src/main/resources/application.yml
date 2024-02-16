@@ -20,6 +20,7 @@ spring:
 #      ddl-auto: create-drop # ??? ??? ???
     show-sql: true # ??? ??? ???
     generate-ddl: true
+
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
@@ -32,4 +33,4 @@ eureka:
 
 logging:
   level:
-    com.example.catalogsevice:  info
+    com.example.catalogsevice:  DEBUG
